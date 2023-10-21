@@ -16,7 +16,7 @@ class Food{
 
 var foodList = [
   Food(
-    name: 'Matcha',
+    name: 'Matcha Latte',
     price: 'Rp 30.000',
     funFacts: [
       '1. Matcha is 137 times more powerful than regular brewed tea.',
@@ -38,9 +38,9 @@ var foodList = [
       '5. Calories : One teaspoon of matcha contains approximately 10 calories, all of which one from the carbohydrate makeup of the drink. Note that calories, carbs, and fats may be added depending on how matcha is prepared—for instance, matcha lattes will often contain fat and carbohydrates from added milk and sugars'
     ],
     images: [
-      'assets/matcha1.jpg.avif',
+      'assets/matcha1.jpeg',
       'assets/matcha2.jpg',
-      'assets/matcha3.jpg.jpeg'
+      'assets/matcha3.jpg.jpeg',
       'assets/matcha4.jpg'
     ],
   ),
@@ -190,7 +190,7 @@ var foodList = [
     images: [
       'assets/pizza1.jpg',
       'assets/pizza2.jpg.webp',
-      'assets/pizza3.jpg.webp'
+      'assets/pizza3.jpg.webp',
       'assets/pizza4.jpg'
     ]
   ),
