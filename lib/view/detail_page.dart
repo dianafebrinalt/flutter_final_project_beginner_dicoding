@@ -33,12 +33,26 @@ class DetailPage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.only(
+            right: 30,
+            left: 20,
+            bottom: 20
+          ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image.asset(
-                foodItem.images[0],
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(
+                      height: 300,
+                      child: Image.asset(
+                        foodItem.images[0],
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                ],
               ),
               Text(
                 "Price : ${foodItem.price}",

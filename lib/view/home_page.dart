@@ -18,71 +18,75 @@ class _HomePageState extends State<HomePage> {
   
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          "Diana's Fav Cafe",
-          style: TextStyle(
-            fontFamily: 'Avenir', 
-            fontWeight: FontWeight.w800,
-            color: Colors.white
+    return LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        return Scaffold(
+          appBar: AppBar(
+            title: const Text(
+              "Diana's Fav Cafe",
+              style: TextStyle(
+                fontFamily: 'Avenir', 
+                fontWeight: FontWeight.w800,
+                color: Colors.white
+              ),
+            ),
+            centerTitle: true,
+            backgroundColor: Colors.green
           ),
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.green
-      ),
-      body: Obx(() {
-        return Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          body: Obx(() {
+            return Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    " Menu",
-                    style: TextStyle(
-                      fontSize: 25,
-                      fontFamily: 'Avenir', 
-                      fontWeight: FontWeight.w800
-                    ),
-                  ),
-                  Stack(
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Icon(
-                        Icons.shopping_basket_rounded 
-                      ),
-                      Text(
-                        "      ${homePageController.orderClickAmount.value.obs}   ",
-                        style: const TextStyle(
-                          fontSize: 18,
+                      const Text(
+                        " Menu",
+                        style: TextStyle(
+                          fontSize: 25,
                           fontFamily: 'Avenir', 
-                          fontWeight: FontWeight.w800,
+                          fontWeight: FontWeight.w800
                         ),
+                      ),
+                      Stack(
+                        children: [
+                          const Icon(
+                            Icons.shopping_basket_rounded 
+                          ),
+                          Text(
+                            "      ${homePageController.orderClickAmount.value.obs}   ",
+                            style: const TextStyle(
+                              fontSize: 18,
+                              fontFamily: 'Avenir', 
+                              fontWeight: FontWeight.w800,
+                            ),
+                          )
+                        ]
                       )
                     ]
-                  )
+                  ),
+                  const SizedBox(height: 15),
+                  Expanded(
+                    child: StaggeredGridView.countBuilder(
+                      crossAxisCount: constraints.maxWidth <= 600 ? 2 : constraints.maxWidth <= 1200  ? 4 : 6,
+                      itemCount: foodList.length,
+                      crossAxisSpacing: 16,
+                      mainAxisSpacing: 16,
+                      itemBuilder: (context, index) {
+                        return MenuItemView(foodItem: foodList[index]);
+                      },
+                      staggeredTileBuilder: (index) => const StaggeredTile.fit(1),
+                    )
+                  ),
                 ]
               ),
-              const SizedBox(height: 15),
-              Expanded(
-                child: StaggeredGridView.countBuilder(
-                  crossAxisCount: 2,
-                  itemCount: foodList.length,
-                  crossAxisSpacing: 16,
-                  mainAxisSpacing: 16,
-                  itemBuilder: (context, index) {
-                    return MenuItemView(foodItem: foodList[index]);
-                  },
-                  staggeredTileBuilder: (index) => const StaggeredTile.fit(1),
-                )
-              ),
-            ]
+            );
+          }
           ),
         );
       }
-      ),
     );
   }
 }
