@@ -38,10 +38,10 @@ var foodList = [
       '5. Calories : One teaspoon of matcha contains approximately 10 calories, all of which one from the carbohydrate makeup of the drink. Note that calories, carbs, and fats may be added depending on how matcha is prepared—for instance, matcha lattes will often contain fat and carbohydrates from added milk and sugars'
     ],
     images: [
-      'assets/matcha1.jpeg',
-      'assets/matcha2.jpg',
-      'assets/matcha3.jpg.jpeg',
-      'assets/matcha4.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCKmbMhXJfRzJLeLqP1vEAiiKFrAlpttlsnw&usqp=CAU',
+      'https://www.justonecookbook.com/wp-content/uploads/2022/12/Matcha-Latte-4598-I-1.jpg',
+      'https://cdn.idntimes.com/content-images/community/2022/07/matcha-66710153458378db3458c70974828e79-cc988e83e51e80d77be74d6a40f948ee_600x400.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4lgO1cHpUz040p1gFGyzfcicm6U7N7HndnA&usqp=CAU'
     ],
   ),
 
@@ -67,9 +67,10 @@ var foodList = [
       '4. Vitamins and Minerals : Barbecue sauce does contain small amounts of some vitamins and minerals, including potassium, vitamin C, and vitamin A. However, you’re not likely to reap major health benefits from these micronutrients unless you’re drinking sauce by the cup (which may be tempting, but isn’t advisable). '
     ],
     images: [
-      'assets/bbq1.jpg',
-      'assets/bbq2.jpg.webp',
-      'assets/bbq3.jpg.webp'
+      'https://awsimages.detik.net.id/community/media/visual/2021/11/05/resep-chicken-wings-bumbu-kecap-wijen_43.jpeg?w=1200',
+      'https://asassyspoon.com/wp-content/uploads/guava-bbq-chicken-wings-a-sassy-spoon-4.jpg',
+      'https://waroengsteakandshake.com/img/img_menu/BBQ_GRILL.png',
+      'https://api-lotte.hollacode.com/api/static/inspirasi/1672226020492-resep-chicken-wings-bumbu-bbq-yang-enak-dan-mudah-dibuat.jpg',
     ]
   ),
 
@@ -90,9 +91,10 @@ var foodList = [
       '4. Vitamins and Minerals : French fries can be a good source of certain vitamins and minerals, including vitamin C (9.7mg), vitamin B6 (0.265mg), and vitamin K (16.3mcg). But again, the nutrients you get from fries can depend on the preparation method. Potato skins are known to contain more nutrients (such as potassium, fiber, and B vitamins), so if you consume fries with the skins still on you may benefit from more vitamins and minerals.'
     ],
     images: [
-      'assets/kentang1.jpeg',
-      'assets/kentang2.jpg',
-      'assets/kentang3.jpg'
+      'https://images.themodernproper.com/billowy-turkey/production/posts/2022/Homemade-French-Fries_8.jpg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1662474181&s=f6b09b96f732330eca2aae43140b3ffa',
+      'https://thissillygirlskitchen.com/wp-content/uploads/2020/02/homemade-french-fries-8-1.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9lNfLOp06hMt8Tcs8dpo-4U275zRhLa2QIA&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBd_DlqsokM-nKS8OyvYiTdFqWc5qN2bw2XA&usqp=CAU'
     ]
   ),
 
@@ -118,11 +120,11 @@ var foodList = [
       '4. May promote weight loss: Nachos with air-fried tortillas and a modest amount of cheese can be a balanced meal. It covers all major food groups, providing carbs, proteins, fats and fibre. It can keep you full for a long time without causing blood sugar spikes.'
     ],
     images: [
-      'assets/nachos1.jpg',
-      'assets/nachos2.jpg',
-      'assets/nachos3.jpg',
-      'assets/nachos4.jpeg',
-      'assets/nachos5.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNfTp9v3UAy2ctWVlywfn0oQPJSqqRB-j019dsAOiZj4ICtMkuRasy1ZUyyQc6qzJfB0&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKjo9WcEu4nieKgtiv21x_F1BRE1t-61B7Cw&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU3i3HmsVHdrpXqSmbVLo_SdxGtbKD8tdd6Q&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB9PI_cg4Oxdm2k46rQIZ-7tMlJk5Y2gC-EA&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv0juVpatCxpRQUyc_qOc12mLNU4c1F-ak7Q&usqp=CAU',
     ]
   ),
 
@@ -140,9 +142,10 @@ var foodList = [
       '3. Good source of proteins (58% of DV/100g). This item has no fiber content (0% of DV/100g).'
     ],
     images: [
-      'assets/naspad1.jpeg',
-      'assets/naspad2.jpg',
-      'assets/naspad3.jpg'
+      'https://assets-pergikuliner.com/4o-dKncqKNS6QQbFDqM52WkrK0o=/fit-in/1366x768/smart/filters:no_upscale()/https://assets-pergikuliner.com/uploads/bootsy/image/12013/picture-1537766225.jpeg',
+      'https://assets.grab.com/wp-content/uploads/sites/9/2019/12/19112921/ID-nasi-padang-pedas1-700x700.jpg',
+      'https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2023/02/09/makan-nasi-padangjpg-20230209030641.jpg',
+      'https://statik.tempo.co/data/2020/09/24/id_969221/969221_720.jpg'
     ]
   ),
 
@@ -160,9 +163,10 @@ var foodList = [
       '2. Some banana chips are coated in syrup or honey, significantly adding to their sugar content. One cup (72 grams) of banana chips contains 25 grams of sugar, which includes 10.5 grams of added sugar, compared with 14.5 grams of natural sugar in a medium (118-gram) banana.'
     ],
     images: [
-      'assets/piscok1.jpg',
-      'assets/piscok2.jpg.webp',
-      'assets/piscok3.jpg'
+      'https://i.ytimg.com/vi/Ipi7pU22rd8/maxresdefault.jpg',
+      'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/364/2023/09/01/pisang-goreng-kriuk-coklat-keju-1168122716.jpg',
+      'https://holymoon.id/wp-content/uploads/2023/05/httpsholymoon.idwp-contentuploads202305Pisang-Goreng-Cokelat-Keju-15K.jpg',
+      'https://assets.ayobandung.com/crop/123x449:707x853/750x500/webp/photo/2023/01/17/3582548328.jpg'
     ]
   ),
 
@@ -188,10 +192,10 @@ var foodList = [
       '5. Calories : Pizza calories and nutrition vary based on the types of cheese used, added toppings, method of cooking, crust density, and size of the pizza slice. For example, a small slice (around 1/8th) of a generic cheese pizza contains about 200 calories, a typical slice of cheese pizza from a chain like Pizza hut can amount to 300 calories for 1/5th of the pie.'
     ],
     images: [
-      'assets/pizza1.jpg',
-      'assets/pizza2.jpg.webp',
-      'assets/pizza3.jpg.webp',
-      'assets/pizza4.jpg'
+      'https://www.pizzahut.co.id/assets/images/digital_menu/phr/menu/pizza/meat-lovers.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbu9LavnnlHhL8mNrtJ0Ejzkx4qOfT0AlZQ&usqp=CAU',
+      'https://cdn1-production-images-kly.akamaized.net/5Rgd9MT6ayaE2xEUHS3XWIzpc6w=/0x281:4653x2903/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3049433/original/093267200_1581580862-shutterstock_294636281.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtTV4IRyYkw1T8DNfytiOcpQ0rWtjfV9l2EA&usqp=CAU'
     ]
   ),
 
@@ -211,9 +215,9 @@ var foodList = [
       '3. Caffeine is a naturally occurring, brain-boosting stimulant that people all over the world consume. Although there is evidence that caffeine improves performance, it may have numerous side effects, including sleeplessness and anxiety.'
     ],
     images: [
-      'assets/thaitea1.jpg',
-      'assets/thaitea2.jpg',
-      'assets/thaitea3.jpg'
+      'https://www.femina.co.id/images/images/27823030_xxl%281%29.jpg',
+      'https://images.bisnis.com/posts/2023/01/29/1622614/thai_tea_1674988798.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJdzZ5l1nFwMHbYxzELUPpSFYU9WBdLp-PFg&usqp=CAU'
     ]
   ),
 
@@ -232,10 +236,10 @@ var foodList = [
       '3. 1g Protein'
     ],
     images: [
-      'assets/ukeju1.jpg.webp',
-      'assets/ukeju2.jpg',
-      'assets/ukeju3.jpe.webp',
-      'assets/ukeju4.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCppB-6LEFqOv_PI2b4jVoee6kjMmfPidEwQ&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8YBJcpx3_RGNIQsnvFLuMV5FtRzNJu0_fX6RrjA4bkNJ6vbVwXenivLQJV70IrJJBX4Y&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvsYeEulFssdJoedPIAbtl8x0mZ6DfeOzSlw&usqp=CAU',
+      'https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/02/23/Udang-Keju-737212811.jpg'
     ]
   ),
 ];

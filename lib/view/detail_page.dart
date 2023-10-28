@@ -47,7 +47,7 @@ class DetailPage extends StatelessWidget {
                 children: [
                   SizedBox(
                       height: 300,
-                      child: Image.asset(
+                      child: Image.network(
                         foodItem.images[0],
                         fit: BoxFit.cover,
                       ),

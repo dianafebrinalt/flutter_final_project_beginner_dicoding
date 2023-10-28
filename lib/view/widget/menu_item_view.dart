@@ -24,7 +24,7 @@ class MenuItemView extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(4),
                 ),
-                child: Image.asset(
+                child: Image.network(
                   foodItem.images[0],
                   fit: BoxFit.cover,
                 ),
